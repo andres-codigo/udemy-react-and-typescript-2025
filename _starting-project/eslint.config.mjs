@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { FlatCompat } from '@eslint/eslintrc';
 import { includeIgnoreFile } from '@eslint/compat';
 import typeScriptParser from '@typescript-eslint/parser';
-import reactHooks from 'eslint-plugin-react-hooks';
+import reactHooks from 'eslint-plugin-react-hooks'; // see declarations/eslint-plugin-react-hooks.d.ts notes for breaking package resolution
 import reactRefresh from 'eslint-plugin-react-refresh';
 
 const __filename = fileURLToPath(import.meta.url);
